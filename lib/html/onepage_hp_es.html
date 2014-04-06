@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+    <link href="html/css/bootstrap.min_onepage.css" rel="stylesheet">
+    <script type="text/javascript" src="html/js/library.js"></script>
+    <script src="html/js/respond.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.23/jquery-ui.min.js"></script>
+    <script src="html/js/css3-mediaqueries.js"></script>
+    <script type='text/javascript'>
+    $(document).ready(function() {
+
+        $.getJSON("config/privacyNoticeConfig.json", function(result) {
+            $.each(result, function(i, field) {
+                if (i == 'instructionSet_ES')
+                    $.each(field, function(key, value) {
+
+
+                        var url = value;
+
+                        $.get(value, function(data) {
+
+
+
+                            if (key == 'instructionA') {
+
+                                $(".Output").append('<div class="api_token_a" ><span>' + data + '</span></div>');
+
+                            }
+
+
+                            if (key == 'instructionB') {
+                                $(".inst_2").append('<div class="api_token_b"><span>' + data + '</span></div>');
+                            }
+                            if (key == 'InstructionC') {
+                                $(".Output1").append('<div class="api_token" style="margin-bottom:10px; " ><b style="font-style: italic; font-weight: normal; font-size: 15px; color:#000;"><span>' + data + '</span></b></div>');
+                            }
+                            if (key == 'instructionD') {
+                                $(".Output1_1").append('<div class="api_token" style="margin-bottom:10px; "  ><b style="font-style: italic; font-weight: normal; font-size: 15px; color:#000;"><span>' + data + '</span></b></div>');
+                            }
+
+                            if (key == 'instructionE') {
+                                $(".Output1_2").append('<div class="api_token" style="" ><b style="font-style: italic; font-weight: normal; font-size: 15px; color:#000;"><span>' + data + '</span></b></div>');
+                            }
+
+                            if (key == 'InstructionF') {
+                                $(".Output2").append('<div class="api_token" style="margin-bottom:15px;" ><b style="font-style: italic; font-weight: normal; font-size: 15px;color:#000;"><span>' + data + '</span></b></div>');
+                            }
+                            if (key == 'instructionG') {
+                                $(".Output3").append('<div class="api_token" ><b style="font-style: italic; font-weight: normal; font-size: 15px;color:#000;"><span>' + data + '</span></b></div>');
+                            }
+                            if (key == 'InstructionH') {
+                                $(".Output4").append('<div class="api_token" ><b style="font-style: italic; font-weight: normal; font-size: 15px;color:#000;"><span>' + data + '</span></b></div>');
+                            }
+
+
+
+                        });
+
+                    });
+
+
+
+            });
+        });
+
+
+
+
+    });
+    </script>
+</head>
+
+<body>
+
+    <div class="container">
+
+
+        <div class="container-fluid red page">
+
+
+
+
+            <div class="headers">
+
+                <div class="header_a Output">
+
+                </div>
+
+                <div class="header_b inst_2">
+
+                </div>
+
+            </div>
+
+
+
+
+
+            <div class="row_bm">
+                <img src="html/images/pdf.jpg" alt="" />
+            </div>
+            <div class="row_mk">
+                <div class="col-md-12">
+                    <h1 class="red_txtt">Su información.</h1>
+                </div>
+                <div class="col-md-12">
+                    <h1 class="red_txtt">Sus derechos.</h1>
+                </div>
+                <div class="col-md-12">
+                    <h1 class="red_txtt">Nuestras responsabilidades.</h1>
+                </div>
+                <p class="para_ab">Esta notificación describe cómo puede utilizarse y divulgarse su información médica, y cómo puede acceder usted a esta información.
+                    <br />
+                    <b>Revísela con cuidado.</b>
+                </p>
+            </div>
+
+
+
+            <div class="row">
+                <h2 class="head">
+                    <span>Sus derechos</span>
+                </h2>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="down_head">
+                        <span style="font-weight:bold;font-size:16px;">Cuando se trata de su información médica, usted tiene ciertos derechos.</span>Esta sección explica sus derechos y algunas de nuestras responsabilidades para ayudarlo.</p>
+                </div>
+            </div>
+            <div class="row common">
+                <div class="col-md-3">
+                    <label class="all_lefts" id="yourright_1" class="toggle">Recibir una copia de su historial médico y de reclamos</label>
+                </div>
+                <div class="col-md-9" id="right_1">
+                    <ul class="lists" style="display:block;">
+                        <li>Puede solicitar que le muestren o le entreguen una copia de su historial médico y reclamos y otra información médica que tengamos de usted. Pregúntenos cómo hacerlo.</li>
+                        <li>Le entregaremos una copia o un resumen de su historial médico y de reclamos, generalmente dentro de 30 días de su solicitud. Podemos cobrar un cargo razonable en base al costo.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row common">
+                <div class="col-md-3">
+                    <label class="all_lefts" id="yourright_2" class="toggle">Solicitarnos que corrijamos el historial médico y de reclamos</label>
+                </div>
+                <div class="col-md-9" id="right_2">
+                    <ul class="lists">
+                        <li>Puede solicitarnos que corrijamos su historial médico y de reclamos si piensa que dichos historiales son incorrectos o están incompletos. Pregúntenos cómo hacerlo.</li>
+                        <li>Podemos decir “no” a su solicitud, pero le daremos una razón por escrito dentro de 60 días.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row common">
+                <div class="col-md-3">
+                    <label class="all_lefts" id="yourright_3" class="toggle">Solicitar comunicaciones confidenciales</label>
+                </div>
+                <div class="col-md-9" id="right_3">
+                    <ul class="lists">
+                        <li>Puede solicitarnos que nos comuniquemos con usted de una manera específica (por ejemplo, por teléfono particular o laboral) o que enviemos la correspondencia a una dirección diferente.</li>
+                        <li>Consideraremos todas las solicitudes razonables y debemos decir “sí” si nos dice que estaría en peligro si no lo hacemos.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row footer">
+                <div class="ftr">continúa en la próxima página</div>
+                <div style="clear:both;"></div>
+                </br>
+                </br>
+                </br>
+                </br>
+                <div style="margin-bottom: -32px;">Notificación de Prácticas de Privacidad • Página 1</div>
+            </div>
+
+        </div>
+
+        <div class="container-fluid red page">
+
+            <div class="row">
+                <h2 class="head">
+                    <span>￼Sus derechos<b style="font-style: italic; font-weight: normal; font-size: 14px;">continuado</b>
+                    </span>
+                </h2>
+            </div>
+            <div class="row mnm">
+                <div class="col-md-3">
+                    <label class="all_lefts lefticon" id="yourright_4" class="toggle">Solicitarnos que limitemos lo que utilizamos o compartimos</label>
+                </div>
+                <div class="col-md-9">
+                    <ul class="lists" id="right_4" style="display:block;">
+                        <li>Puede solicitarnos que no utilicemos ni compartamos determinada información médica para el tratamiento, pago o para nuestras operaciones.</li>
+                        <li>Puede solicitarnos que no utilicemos ni compartamos determinada información médica para el tratamiento, pago o para nuestras operaciones.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row common">
+                <div class="col-md-3">
+                    <label class="all_lefts lefticon" id="yourright_5" class="toggle">Recibir una lista de aquellos con quienes hemos compartido información</label>
+                </div>
+                <div class="col-md-9">
+                    <ul class="lists" id="right_5" style="display:block;">
+                        <li>Puede solicitar una lista (informe) de las veces que hemos compartido su información médica durante los seis años previos a la fecha de su solicitud, con quién la hemos compartido y por qué.</li>
+                        <li>Incluiremos todas las divulgaciones excepto aquellas sobre el tratamiento, pago y operaciones de atención médica, y otras divulgaciones determinadas (como cualquiera de las que usted nos haya solicitado hacer). Le proporcionaremos un informe gratis por año pero cobraremos un cargo razonable en base al costo si usted solicita otro dentro de los 12 meses.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row common">
+                <div class="col-md-3 ">
+                    <label class="all_lefts lefticon " id="yourright_6 " class="toggle ">Obtener una copia de esta notificación de privacidad</label>
+                </div>
+                <div class="col-md-9 ">
+                    <ul class="lists " id="right_6 " style="display:block; ">
+                        <li>Puede solicitar una copia en papel de esta notificación en cualquier momento, incluso si acordó recibir la notificación de forma electrónica. Le proporcionaremos una copia en papel de inmediato.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row common ">
+                <div class="col-md-3 ">
+                    <label class="all_lefts lefticon " id="yourright_7 " class="toggle ">Elegir a alguien para que actúe en su nombre</label>
+                </div>
+                <div class="col-md-9 ">
+                    <ul class="lists " id="right_7 " style="display:block; ">
+                        <li>Si usted le ha otorgado a alguien la representación médica o si alguien es su tutor legal, aquella persona puede ejercer sus derechos y tomar decisiones sobre su información médica.</li>
+                        <li>Nos aseguraremos de que la persona tenga esta autoridad y pueda actuar en su nombre antes de tomar cualquier medida.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row common ">
+                <div class="col-md-3 ">
+                    <label class="all_lefts lefticon " id="yourright_8 ">Presentar una queja si considera que se violaron sus derechos</label>
+                </div>
+                <div class="col-md-9 ">
+                    <ul class="lists " id="right_8 " style="display:block; ">
+                        <li>Si considera que hemos violado sus derechos, puede presentar una queja comunicándose con nosotros por medio de la información de la página 1.</li>
+                        <li>Puede presentar una queja en la Oficina de Derechos Civiles del Departamento de Salud y Servicios Humanos enviando una carta a: Department of Health and Human Services, 200 Independence Avenue, S.W., Washington, D.C. 20201, llamando al 1-800-368-1019 o visitando <a href="www.hhs.gov/ocr/privacy/hipaa/understanding/consumers/factsheets_ spanish.html" target="new " style="font-weight:bold;color:#000; ">www.hhs.gov/ocr/privacy/hipaa/understanding/consumers/factsheets_ spanish.html, </a>los últimos dos disponibles en español.
+                        </li>
+                        <li>No tomaremos represalias en su contra por la presentación de una queja.</li>
+                    </ul>
+                </div>
+            </div>
+            </br>
+            </br>
+            </br>
+            </br>
+            </br>
+            </br>
+            </br>
+            </br>
+            </br>
+            </br>
+            <div style="font-size:13px; ">Notificación de Prácticas de Privacidad • Página 2</div>
+        </div>
+
+
+
+
+
+
+        <div class="container-fluid blue page ">
+            <div class="row ">
+                <h2 class="head ">
+                    <span>￼Sus opciones</span>
+                </h2>
+            </div>
+            <div class="row ">
+                <div class="col-md-12 ">
+                    <p class="down_head ">
+                        <span style="font-weight:bold;font-size:16px; ">Para determinada información médica, puede decirnos sus decisiones sobre qué compartimos.</span>Si tiene una preferencia clara de cómo compartimos su información en las situaciones descritas debajo, comuníquese con nosotros. Díganos qué quiere que hagamos, y seguiremos sus instrucciones.</p>
+                </div>
+            </div>
+            <div class="row common ">
+                <div class="col-md-3 ">
+                    <label class="all_lefts " id="yourchoice_9 " class="toggle ">En estos casos, tiene tanto el derecho como la opción de pedirnos que:</label>
+                </div>
+                <div class="col-md-9 ">
+                    <ul class="lists " id="right_9 " style="display:block; ">
+                        <li>Compartamos información con su familia, amigos cercanos u otras personas involucradas en el pago de su atención.</li>
+                        <li>Compartamos información en una situación de alivio en caso de una catástrofe.</li>
+                        <i><div style="margin-top:5px; ">Si no puede decirnos su preferencia, por ejemplo, si se encuentra inconsciente, podemos seguir adelante y compartir su información si creemos que es para beneficio propio. También podemos compartir su información cuando sea necesario para reducir una amenaza grave e inminente a la salud o seguridad.</div></i>
+                    </ul>
+                </div>
+            </div>
+            <div class="row common ">
+                <div class="col-md-3 ">
+                    <label class="all_lefts " id="yourchoice_10 " class="toggle ">En estos casos, nunca compartiremos su información a menos que nos entregue un permiso por escrito:</label>
+                </div>
+                <div class="col-md-9 ">
+                    <ul class="lists " id="right_10 " style="display:block; ">
+                        <li>Propósitos de mercadeo.</li>
+                        <li>Venta de su información.</li>
+                    </ul>
+                </div>
+            </div>
+
+            </br>
+            <div class="orange ">
+                <div class="row ">
+                    <h2 class="head ">
+                        <span>￼Nuestros usos y divulgaciones</span>
+                    </h2>
+                </div>
+                <div class="row ">
+                    <div class="col-md-12 ">
+                        <p class="down_head ">
+                            <span style="font-weight:bold;font-size:16px; ">Por lo general, ¿cómo utilizamos o compartimos su información médica?</span>Por lo general, utilizamos o compartimos su información médica de las siguientes maneras.</p>
+                    </div>
+                </div>
+                <div class="row common ">
+                    <div class="col-md-37 ">
+                        <label class="all_lefts " id="yourchoice_12 " class="toggle ">Ayudar a administrar el tratamiento de atención médica que usted recibe</label>
+                    </div>
+                    <div id="right_12 " style="display:block; ">
+                        <div class="col-md-56 ">
+                            <ul class="lists ">
+                                <li>Podemos utilizar su información médica y compartirla con otros profesionales que lo estén tratando.</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-45 example ">
+                            <span>Ejemplo:</span>Un médico nos envía información sobre su diagnóstico y plan de tratamiento para que podamos organizar los servicios adicionales.
+                        </div>
+                    </div>
+                </div>
+                <div class="row common ">
+                    <div class="col-md-37 ">
+                        <label class="all_lefts " id="yourchoice_13 " class="toggle ">Dirigir nuestra organización</label>
+                    </div>
+                    <div id="right_13 " style="display:block; ">
+                        <div class="col-md-56 ">
+                            <ul class="lists ">
+                                <li>Podemos utilizar y divulgar su información para dirigir nuestra organización y comunicarnos con usted cuando sea necesario.</li>
+                                <li><b>No se nos permite utilizar información genética para decidir si le proveemos cobertura y el precio de dicha cobertura.</b> Esto no se aplica a los planes de atención a largo plazo.</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-45 example ">
+                            <span>Ejemplo:</span>Utilizamos su información médica para ofrecerle mejores servicios.</div>
+                    </div>
+                </div>
+                <div class="row common ">
+                    <div class="col-md-37 ">
+                        <label class="all_lefts " id="yourchoice_14 " class="toggle ">Pagar por sus servicios médicos</label>
+                    </div>
+                    <div id="right_14 " style="display:block; ">
+                        <div class="col-md-56 ">
+                            <ul class="lists ">
+                                <li>Podemos utilizar y divulgar su información médica cuando pagamos por sus servicios médicos.</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-45 example ">
+                            <span>Ejemplo:</span>Compartimos su información con su plan dental para coordinar el pago por su trabajo dental.</div>
+                    </div>
+                </div>
+                <div class="row common ">
+                    <div class="col-md-37 ">
+                        <label class="all_lefts " id="yourchoice_14 " class="toggle ">Administrar su plan</label>
+                    </div>
+                    <div id="right_14 " style="display:block; ">
+                        <div class="col-md-56 ">
+                            <ul class="lists ">
+                                <li>Podemos divulgar su información médica a su patrocinador del plan médico para la administración del plan.</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-45 example ">
+                            <span>Ejemplo:</span>Su compañía nos contrata para proveer un plan médico, y nosotros le proporcionamos a su compañía determinadas estadísticas para explicar las primas que cobramos.</div>
+                    </div>
+                </div>
+                <div class="row footer ">
+                    <div class="ftr ">continúa en la próxima página</div>
+                    <div style="clear:both; "></div>
+                    </br>
+                    </br>
+                    </br>
+                    </br>
+                    </br>
+                    <div style="margin-bottom:-32px; ">Notificación de Prácticas de Privacidad • Página 3</div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid orange page ">
+            <p></p>
+            <p></p>
+            <p></p>
+            </br>
+            <div class="row ">
+                <div class="col-md-12 ">
+                    <p class="down_head ">
+                        <span style="font-weight:bold;font-size:16px; ">¿De qué otra manera podemos utilizar o compartir su información médica?</span>
+                        Se nos permite o exige compartir su información de otras maneras (por lo general, de maneras que contribuyan al bien público, como la salud pública e investigaciones médicas). Tenemos que reunir muchas condiciones legales antes de poder compartir su información con dichos propósitos. Para más información, visite:
+                        <a href="www.hhs.gov/ocr/privacy/ hipaa/understanding/consumers/factsheets_spanish.html" target="new "><b>www.hhs.gov/ocr/privacy/ hipaa/understanding/consumers/factsheets_spanish.html, </b></a> disponible en español.
+                    </p>
+                </div>
+            </div>
+            <div class="row common ">
+                <div class="col-md-3 ">
+                    <label class="all_lefts " id="yourchoice_15 " class="toggle ">Ayudar con asuntos de salud pública y seguridad</label>
+                </div>
+                <div class="col-md-9 ">
+                    <ul class="lists " id="right_15 " style="display:block; ">
+                        <li>Podemos compartir su información médica en determinadas situaciones, como:</li>
+                        <li class="km ">Prevención de enfermedades.</li>
+                        <li class="km ">Ayuda con el retiro de productos del mercado.</li>
+                        <li class="km ">Informe de reacciones adversas a los medicamentos.</li>
+                        <li class="km ">Informe de sospecha de abuso, negligencia o violencia doméstica.</li>
+                        <li class="km ">Prevención o reducción de amenaza grave hacia la salud o seguridad de alguien.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row common ">
+                <div class="col-md-3 ">
+                    <label class="all_lefts " id="yourchoice_16 " class="toggle ">Realizar investigaciones médicas</label>
+                </div>
+                <div class="col-md-9 ">
+                    <ul class="lists " id="right_16 " style="display:block; ">
+                        <li>Podemos utilizar o compartir su información para investigación de salud.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row common ">
+                <div class="col-md-3 ">
+                    <label class="all_lefts " id="yourchoice_17 " class="toggle ">Cumplir con la ley</label>
+                </div>
+                <div class="col-md-9 ">
+                    <ul class="lists " id="right_17 " style="display:block; ">
+                        <li>Podemos compartir su información si las leyes federales o estatales lo requieren, incluyendo compartir la información con el Departamento de Salud y Servicios Humanos si éste quiere comprobar que cumplimos con la Ley de Privacidad Federal.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row common ">
+                <div class="col-md-3 ">
+                    <label class="all_lefts " id="yourchoice_18 " class="toggle ">Responder a las solicitudes de donación de órganos y tejidos y trabajar con un médico forense o director funerario
+                    </label>
+                </div>
+                <div class="col-md-9 ">
+                    <ul class="lists " id="right_18 " style="display:block; ">
+                        <li>Podemos compartir su información médica con las organizaciones de procuración de órganos.</li>
+                        <li>Podemos compartir información médica con un oficial de investigación forense, médico forense o director funerario cuando un individuo fallece.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="row common ">
+                <div class="col-md-3 ">
+                    <label class="all_lefts " id="yourchoice_20 " class="toggle ">Tratar la compensación de trabajadores, el cumplimiento de la ley y otras solicitudes gubernamentales</label>
+                </div>
+                <div class="col-md-9 ">
+                    <ul class="lists " id="right_20 " style="display:block; ">
+                        <li>Podemos utilizar o compartir su información médica:</li>
+                        <li class="km ">En reclamos de compensación de trabajadores.</li>
+                        <li class="km ">A los fines de cumplir con la ley o con un personal de las fuerzas de seguridad.</li>
+                        <li class="km ">Con agencias de supervisión sanitaria para las actividades autorizadas por ley.</li>
+                        <li class="km ">En el caso de funciones gubernamentales especiales, como los servicios de protección presidencial, seguridad nacional y servicios militares.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row common ">
+                <div class="col-md-3 ">
+                    <label class="all_lefts " id="yourchoice_21 " class="toggle ">Responder a demandas y acciones legales</label>
+                </div>
+                <div class="col-md-9 ">
+                    <ul class="lists " id="right_21 " style="display:block; ">
+                        <li>Podemos compartir su información médica en respuesta a una orden administrativa o de un tribunal o en respuesta a una citación.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-md-12 ">
+                    <p class="Output1 "></p>
+                    <p class="Output1_1 "></p>
+                    <p class="Output1_2 "></p>
+                </div>
+            </div>
+            </br>
+            </br>
+            </br>
+            </br>
+            </br>
+            </br>
+            </br>
+            </br>
+            </br>
+            </br>
+            <div style="font-size:13px; ">Notificación de Prácticas de Privacidad • Página 4</div>
+        </div>
+        <div class="container-fluid green page ">
+            <div class="row ">
+                <h2 class="head ">
+                    <span>￼Nuestras responsabilidades</span>
+                </h2>
+            </div>
+            <div class="row mnm ">
+                <div class="col-md-12 ">
+                    <ul class="lists ">
+                        <li>Estamos obligados por ley a mantener la privacidad y seguridad de su información médica protegida.</li>
+                        <li>Le haremos saber de inmediato si ocurre un incumplimiento que pueda haber comprometido la privacidad o seguridad de su información.</li>
+                        <li>Debemos seguir los deberes y prácticas de privacidad descritas en esta notificación y entregarle una copia de la misma.</li>
+                        <li>No utilizaremos ni compartiremos su información de otra manera distinta a la aquí descrita, a menos que usted nos diga por escrito que podemos hacerlo. Si nos dice que podemos, puede cambiar de parecer en cualquier momento. Háganos saber por escrito si usted cambia de parecer.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-md-12 ">
+                    <p class="down_head ">Para mayor información, visite: <b><a href="www.hhs.gov/ocr/privacy/hipaa/understanding/consumers/ factsheets_spanish.html" target="new " >www.hhs.gov/ocr/privacy/hipaa/understanding/consumers/ factsheets_spanish.html, </a></b>disponible en español.
+                    </p>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-md-12 ">
+                    <p class="down_head ">
+                        <span style="font-weight:bold; ">Cambios a los términos de esta notificación</span>
+                        </br>Podemos modificar los términos de esta notificación, y los cambios se aplicarán a toda la información que tenemos sobre usted. La nueva notificación estará disponible según se solicite, en nuestro sitio web, y le enviaremos una copia por correo.</b>
+                    </p>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-md-12 ">
+                    <p class="Output2 "></p>
+                </div>
+            </div>
+            </br>
+            <div class="row ">
+                <div class="col-md-12 ">
+                    <p style="font-size: 15px; "><b>
+Esta Notificación de Prácticas de Privacidad se aplica a las siguientes organizaciones.</b>
+                    </p>
+                </div>
+            </div>
+            <div class="row ">
+                <div class="col-md-12 ">
+                    <p class="Output3 "></p>
+                    </br>
+                    </br>
+                    </br>
+                    </br>
+                    </br>
+                    </br>
+                    </br>
+                    </br>
+                </div>
+            </div>
+            <div class="row footer ">
+                <div>
+                    <p class="Output4 "></p>
+                </div>
+            </div>
+            </br>
+            <div class="clear "></div>
+            <div style="font-size:13px; ">Notificación de Prácticas de Privacidad • Página 5</div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="html/js/bootstrap.min.js "></script>
+</body>
+
+</html>

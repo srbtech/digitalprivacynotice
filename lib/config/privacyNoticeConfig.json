@@ -1,0 +1,22 @@
+{
+    "instructionSet_EN": {
+        "instructionA": "instructions/EN/InstructionA.txt",
+        "instructionB": "instructions/EN/InstructionB.txt",
+        "InstructionC": "instructions/EN/InstructionC.txt",
+        "instructionD": "instructions/EN/InstructionD.txt",
+        "instructionE": "instructions/EN/InstructionE.txt",
+        "InstructionF": "instructions/EN/InstructionF.txt",
+        "instructionG": "instructions/EN/InstructionG.txt",
+        "InstructionH": "instructions/EN/InstructionH.txt"
+    },
+    "instructionSet_ES": {
+        "instructionA": "instructions/ES/InstructionA.txt",
+        "instructionB": "instructions/ES/InstructionB.txt",
+        "InstructionC": "instructions/ES/InstructionC.txt",
+        "instructionD": "instructions/ES/InstructionD.txt",
+        "instructionE": "instructions/ES/InstructionE.txt",
+        "InstructionF": "instructions/ES/InstructionF.txt",
+        "instructionG": "instructions/ES/InstructionG.txt",
+        "InstructionH": "instructions/ES/InstructionH.txt"
+    }
+}

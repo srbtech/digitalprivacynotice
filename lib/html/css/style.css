@@ -1,0 +1,427 @@
+@charset "utf-8";
+/* Simple fluid media
+   Note: Fluid media requires that you remove the media's height and width attributes from the HTML
+   http://www.alistapart.com/articles/fluid-images/ 
+*/
+img, object, embed, video {
+	max-width: 100%;
+}
+/* IE 6 does not support max-width so default to width 100% */
+.ie6 img {
+	width: 100%;
+}
+@font-face {
+	font-family: 'modern';
+	src: url('fonts/modern.eot');
+	src: url('fonts/modern.eot?#iefix') format('embedded-opentype'), url('fonts/modern.woff') format('woff'), url('fonts/modern.ttf') format('truetype'), url('fonts/modern.svg#modern') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+a img {
+	border: 0;
+}
+html, body, div, span, p, ul, li, ol, input, h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	transition: all ease 0.5s;
+}
+.clear {
+	clear: both;
+	height: 0;
+}
+body {
+	background: #333333;
+	overflow-x:hidden;
+}
+.container {
+	margin: 0 auto;
+	width: 1140px;
+	padding: 0 15px;
+}
+.tags {
+	color: #d2232b;
+	font: 50px/60px Arial, Helvetica, sans-serif;
+	float: left;
+	margin: 0;
+	padding: 0 20px;
+}
+.page {
+   background: none repeat scroll 0 0 #FFFFFF;
+    margin-bottom: 15px;
+    overflow: hidden;
+    padding: 38px;
+}
+.page h2 {
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 100%;
+	border-bottom: 13px solid #000;
+}
+.page h2 span {
+	display: block;
+	background: #000;
+	color: #fff;
+	font: bold 18px/18px Arial, Helvetica, sans-serif;
+	float: left;
+	-webkit-border-top-left-radius: 19px;
+	-webkit-border-top-right-radius: 19px;
+	-moz-border-radius-topleft: 19px;
+	-moz-border-radius-topright: 19px;
+	border-top-left-radius: 19px;
+	border-top-right-radius: 19px;
+	padding: 14px 15px 0 15px;
+	min-width: 210px;
+}
+.page > p {
+	margin: 15px 0;
+	padding: 0;
+	float: left;
+	width: 100%;
+	font: 15px/22px Arial, Helvetica, sans-serif;
+}
+.page > p span {
+	color: red;
+	font: bold 15px/22px Arial, Helvetica, sans-serif;
+}
+.row_rep {
+	float: left;
+	width: 100%;
+	padding: 15px 0;
+	margin: 0;
+}
+.row_rep ul {
+	float: right;
+	width: 100%;
+	font: 15px/24px Arial, Helvetica, sans-serif;
+}
+.row_rep ul li {
+	background: url(../images/green.png) left 8px no-repeat;
+	list-style-type: none;
+	padding: 0 0 0 12px;
+	line-height:22px;
+}
+.row_rep label {
+    color: #231F20;
+    display: block;
+    float: left;
+    font: bold 16px/24px Arial,Helvetica,sans-serif;
+    padding: 0;
+    width: 27%;
+}
+
+
+.row_per {
+	float: left;
+	width: 100%;
+	padding: 15px 0;
+	margin: 0;
+}
+.row_per ul {
+	float: right;
+	width: 100%;
+	font: 15px/24px Arial, Helvetica, sans-serif;
+}
+.row_per ul li {
+	background: url(../images/red.png) left 8px no-repeat;
+	list-style-type: none;
+	padding: 0 0 0 12px;
+	line-height:22px;
+}
+.row_per label {
+    color: #231F20;
+    display: block;
+    float: left;
+    font: bold 16px/24px Arial,Helvetica,sans-serif;
+    padding: 0;
+    width: 27%;
+}
+
+
+
+.row {
+	float: left;
+	width: 100%;
+	padding: 15px 0;
+	margin: 0;
+	border-top: 1px solid #000;
+}
+.row_bbm {
+	float: left;
+	width: 100%;
+	margin: 0;
+	border-top: 1px solid #000;
+	padding:10px 0;
+
+}
+.rowm {
+	float: left;
+	width: 100%;
+	/*padding: 15px 0;*/
+	margin: 0;
+}
+.rowmn {
+	float: left;
+	width: 100%;
+	padding: 15px 0;
+	margin-top: 135px;
+	border-top:1px solid #000;
+}
+.row label {
+	display: block;
+	float: left;
+	width: 27%;
+	padding: 0 0 0 0;
+	font: bold 16px/24px Arial, Helvetica, sans-serif;
+	color: #231f20;
+}
+.row_bbm label {
+	display: block;
+	float: left;
+	width: 12%;
+	padding: 0 0 0 0;
+	font: bold 16px/24px Arial, Helvetica, sans-serif;
+	color: #231f20;
+}
+.rowm label {
+	display: block;
+	float: left;
+	width: 27%;
+	padding: 0 0 0 0;
+	font: bold 16px/24px Arial, Helvetica, sans-serif;
+	color: #231f20;
+}
+.right_block {
+	float: right;
+	width: 70%;
+	margin: 0;
+	padding: 0;
+}
+.row ul {
+	float: right;
+	width: 100%;
+	font: 15px/24px Arial, Helvetica, sans-serif;
+}
+.row ul li {
+	background: url(../images/red.png) left 8px no-repeat;
+	list-style-type: none;
+	padding: 0 0 0 12px;
+	line-height:20px;
+}
+.rowm ul {
+	float: right;
+	width: 100%;
+	font: 15px/24px Arial, Helvetica, sans-serif;
+}
+.rowm ul li {
+	background: url(../images/red.png) left 8px no-repeat;
+	list-style-type: none;
+	padding: 0 0 0 20px;
+}
+.row_bbm ul {
+	float: right;
+	width: 100%;
+	font: 15px/24px Arial, Helvetica, sans-serif;
+}
+.row_bbm ul li {
+	background: url(../images/orange.png) left 8px no-repeat;
+	list-style-type: none;
+	padding: 0 0 0 20px;
+	
+}
+/*.footer {
+	float: left;
+	margin: 0px 0 30px 0;
+	width: 100%;
+	border-top: 1px solid #231f20;
+	padding: 10px 0;
+	font: 15px/22px Arial, Helvetica, sans-serif;
+}*/
+.footer {
+	float: left;
+	width: 100%;
+	border-top: 1px solid #231f20;
+	padding: 10px 0;
+	font: 13px/22px Arial, Helvetica, sans-serif !important;
+}
+.footerm {
+	float: left;
+	width: 100%;
+	padding: 10px 0;
+	font: 13px/22px Arial, Helvetica, sans-serif;
+	margin-top:39px;
+}
+.header {
+	float: left;
+	margin: 20px 0 30px 0;
+	text-align: right;
+	width: 100%;
+	border-bottom: 1px solid #231f20;
+	padding: 10px 0;
+	font: 15px/22px Arial, Helvetica, sans-serif;
+}
+/* Mobile Layout: 480px and below. */
+
+.full {
+	background: #dde4ff;
+	width: 96%;
+	padding: 10px 2%;
+	resize: none;
+	height: 200px;
+	border: 0;
+	margin: 0 0 20px 0;
+}
+.red h2 {
+	border-bottom: 13px solid #d2232b;
+	margin-top: 75px;
+}
+.red h2 span {
+	background: #d2232b;
+}
+.red > p span {
+	color: #d2232b;
+}
+.red .row ul li {
+}
+.blue h2 {
+	border-bottom: 13px solid #0066a6;
+}
+.blue h2 span {
+	background: #0066a6;
+}
+.blue > p span {
+	color: #0066a6;
+}
+.blue .row ul li {
+	background: url(../images/blue.png) left 8px no-repeat;
+}
+.orange h2 {
+	border-bottom: 13px solid #e0861a;
+}
+.orange h2 span {
+	background: #e0861a;
+}
+.orange > p span {
+	color: #e0861a;
+}
+.orange .row ul li {
+	background: url(../images/orange.png) left 8px no-repeat;
+}
+.green h2 {
+	border-bottom: 13px solid #389339;
+}
+.green h2 span {
+	background: #389339;
+}
+.green > p span {
+	color: #389339;
+}
+.green .row ul li {
+	background: url(../images/green.png) left 8px no-repeat;
+}
+.less {
+	width: 41%;
+	padding: 0 3% 0 3%;
+	float: left;
+}
+.example_box {
+	float: left;
+	width: 39%;
+	font: italic 15px/24px Arial, Helvetica, sans-serif;
+}
+.example_box span {
+	font: bold italic 15px/24px Arial, Helvetica, sans-serif;
+	color: #e0861a;
+}
+.para {
+    color: #000;
+    float: left;
+    font: 17px/22px Arial,Helvetica,sans-serif;
+    margin: 10px 0;
+    width: 54% !important;
+}
+ @media only screen and (max-width: 1000px) {
+.container {
+	width: 100%;
+}
+.page {
+	width: 92%;
+	padding: 25px 4%;
+}
+}
+ @media only screen and (max-width: 767px) {
+.row label {
+	width: 100%;
+	margin: 0 0 15px 0;
+}
+.right_block {
+	width: 100%;
+	margin: 0 0 15px 0;
+}
+.example_box {
+	width: 100%;
+	float: left;
+}
+.tags {
+	font: 26px/32px Arial, Helvetica, sans-serif;
+}
+}
+
+ @media only screen and (max-width: 640px) 
+ {
+    .header_a , .header_b , .roww , .row_right {width:100% !important;float:left;}
+  
+ }
+
+
+
+.header_a {
+    float: left;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    min-height: 100px;
+    width: 50%;
+}
+.header_b {
+    color: #000000;
+    float: left;
+    font: italic 26px/36px Arial,Helvetica,sans-serif;
+    min-height: 100px;
+    width: 49%;
+}
+.headers {
+    float: left;
+    padding-top: 60px;
+    width: 100%;
+	 border-bottom: 1px solid;
+}
+.roww{width:50%;float:left;}
+.row_right{float: right; width: 50%; margin-top: 85px;}
+
+*:before, *:after {
+    -moz-box-sizing: border-box;
+}
+*:before, *:after {
+    -moz-box-sizing: border-box;
+}
+.red_txt {
+    color: #D2232B !important;
+    font-size: 36px !important;
+    font-weight: bold !important;
+    margin: 3px 0px !important;
+	font-family:arial;
+}
+.km {
+    margin-left: 20px !important;
+}
+.ftr {
+    float: right;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: normal;
+    margin-top: -6px;
+}
+.api_token_b{line-height: 16px; width: 87%;float:right;}
+
