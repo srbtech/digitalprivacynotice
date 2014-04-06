@@ -7,6 +7,10 @@
         "url": ""
     },
     "main": "./lib/digitalprivacynotice",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/srbtech/digitalprivacynotice.git"
+    },
     "keywords": ["HIPPA Privacy Policy", "Digital Privacy notices", "NPP", "ONC IT Challange"],
     "bin": {
         "digitalprivacynotice": "./bin/digitalprivacynotice"
