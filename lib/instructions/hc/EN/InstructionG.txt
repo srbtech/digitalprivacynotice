@@ -1,2 +1,2 @@
 Instruction G: If your entity is part of an OHCA (organized health care arrangement) that has agreed to a joint notice, use this space to inform your patient of how you share information within OHCA (such as for treatment, payment, and operations related to the OHCA). Also, describe the other entities covered by this notice and their service locations. For Example, “This notice applies to Grace Community 
-Hospital and Emergency Services Incorporated which operate the emergency services within all Grace hospitals in greater Dayton area.”
+Hospitals and Emergency Services Incorporated which operate the emergency services within all Grace hospitals in greater Dayton area.”

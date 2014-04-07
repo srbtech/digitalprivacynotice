@@ -1,22 +1,42 @@
 {
-    "instructionSet_EN": {
-        "instructionA": "instructions/EN/InstructionA.txt",
-        "instructionB": "instructions/EN/InstructionB.txt",
-        "InstructionC": "instructions/EN/InstructionC.txt",
-        "instructionD": "instructions/EN/InstructionD.txt",
-        "instructionE": "instructions/EN/InstructionE.txt",
-        "InstructionF": "instructions/EN/InstructionF.txt",
-        "instructionG": "instructions/EN/InstructionG.txt",
-        "InstructionH": "instructions/EN/InstructionH.txt"
+    "instructionSet_hc_EN": {
+        "instructionA": "instructions/hc/EN/InstructionA.txt",
+        "instructionB": "instructions/hc/EN/InstructionB.txt",
+        "InstructionC": "instructions/hc/EN/InstructionC.txt",
+        "instructionD": "instructions/hc/EN/InstructionD.txt",
+        "instructionE": "instructions/hc/EN/InstructionE.txt",
+        "InstructionF": "instructions/hc/EN/InstructionF.txt",
+        "instructionG": "instructions/hc/EN/InstructionG.txt",
+        "InstructionH": "instructions/hc/EN/InstructionH.txt"
     },
-    "instructionSet_ES": {
-        "instructionA": "instructions/ES/InstructionA.txt",
-        "instructionB": "instructions/ES/InstructionB.txt",
-        "InstructionC": "instructions/ES/InstructionC.txt",
-        "instructionD": "instructions/ES/InstructionD.txt",
-        "instructionE": "instructions/ES/InstructionE.txt",
-        "InstructionF": "instructions/ES/InstructionF.txt",
-        "instructionG": "instructions/ES/InstructionG.txt",
-        "InstructionH": "instructions/ES/InstructionH.txt"
+    "instructionSet_hc_ES": {
+        "instructionA": "instructions/hc/ES/InstructionA.txt",
+        "instructionB": "instructions/hc/ES/InstructionB.txt",
+        "InstructionC": "instructions/hc/ES/InstructionC.txt",
+        "instructionD": "instructions/hc/ES/InstructionD.txt",
+        "instructionE": "instructions/hc/ES/InstructionE.txt",
+        "InstructionF": "instructions/hc/ES/InstructionF.txt",
+        "instructionG": "instructions/hc/ES/InstructionG.txt",
+        "InstructionH": "instructions/hc/ES/InstructionH.txt"
+    },
+    "instructionSet_hp_EN": {
+        "instructionA": "instructions/hp/EN/InstructionA.txt",
+        "instructionB": "instructions/hp/EN/InstructionB.txt",
+        "InstructionC": "instructions/hp/EN/InstructionC.txt",
+        "instructionD": "instructions/hp/EN/InstructionD.txt",
+        "instructionE": "instructions/hp/EN/InstructionE.txt",
+        "InstructionF": "instructions/hp/EN/InstructionF.txt",
+        "instructionG": "instructions/hp/EN/InstructionG.txt",
+        "InstructionH": "instructions/hp/EN/InstructionH.txt"
+    },
+    "instructionSet_hp_ES": {
+        "instructionA": "instructions/hp/ES/InstructionA.txt",
+        "instructionB": "instructions/hp/ES/InstructionB.txt",
+        "InstructionC": "instructions/hp/ES/InstructionC.txt",
+        "instructionD": "instructions/hp/ES/InstructionD.txt",
+        "instructionE": "instructions/hp/ES/InstructionE.txt",
+        "InstructionF": "instructions/hp/ES/InstructionF.txt",
+        "instructionG": "instructions/hp/ES/InstructionG.txt",
+        "InstructionH": "instructions/hp/ES/InstructionH.txt"
     }
 }

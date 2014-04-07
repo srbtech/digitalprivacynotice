@@ -1,1 +1,0 @@
-Instruction E: If your entity provides patients with access to their health information via the Blue Button protocol, you may want to insert a reference to it here.
