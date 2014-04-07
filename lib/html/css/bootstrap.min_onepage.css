@@ -5096,7 +5096,7 @@ th.visible-print, td.visible-print {
 	padding: 0;
 	float: left;
 	width: 100%;
-	border-bottom: 13px solid #000;
+	/* border-bottom: 13px solid #000; */
 	margin-top:70px;
 }
 .head span {
