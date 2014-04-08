@@ -2,7 +2,7 @@
     "author": "Bramh Gupta, SRB Technologies, www.srbtech.com ",
     "name": "digitalprivacynotice",
     "description": "Digital Privacy Notice based on model notices of privacy practices (NPP) available at http://www.hhs.gov/ocr/privacy/hipaa/modelnotices.html",
-    "version": "0.2.3",
+    "version": "0.2.5",
     "repository": {
         "url": ""
     },
