@@ -1,17 +1,20 @@
-digitalprivacynotice --- Online digital privacy notice based on joint ONC/OCR model NPP project content
+digitalprivacynotice --- Digital Privacy Notice based on joint ONC/OCR model NPP project content
 =======================================================================================================
 # SYNOPSIS
 
-This node.js module provides a standardized online notice of Privacy Practice. The HIPAA Privacy Rule gives individuals a fundamental right to be informed of the privacy practices of health plans and health care providers, as well as to be informed of their privacy rights with respect to their personal health information. Health plans and covered health care providers are required to develop and distribute a notice that provides a clear, user friendly explanation of these rights and practices.
+This module provides a standardized online notices of privacy practice. The HIPAA Privacy Rule gives individuals a fundamental right to be informed of the privacy practices of health plans and health care providers, as well as to be informed of their privacy rights with respect to their personal health information. Health plans and covered health care providers are required to develop and distribute a notice that provides a clear, user friendly explanation of these rights and practices.
 
-The Office of the National Coordinator for Health Information Technology (ONC) has developed model notices of privacy practices (NPP) that clearly convey the required information to patients in an accessible format. These model notices can be customized by covered entities (doctors, hospitals and other health care providers covered by HIPAA who maintain patient data, health plans) and then printed for office display, distributed to patients or made available online on the providers websites.
+The Office of the National Coordinator for Health Information Technology (ONC) recently collaborated with the Office for Civil Rights (OCR) to develop model notices of privacy practices (NPP) that clearly convey the required information to patients in an accessible format. These model notices can be customized by covered entities (doctors, hospitals and other health care providers covered by HIPAA who maintain patient data, health plans) and then printed for office display, distributed to patients or made available online on the providers websites.
 
-This application provides the on-line version of the above mentioned model notices of privacy practices (NPP) that can be integrated with existing web sites of Health Care and Health Plan providers.
+This application provides the on-line version of the above mentioned model notices of privacy practices (NPP) that can be integrated with existing web sites of health care and health plan providers.
 
 # System Requirements
 This node.js module requires server side deployment and has following dependencies.
 
 ## Server side required software
+
+Following software are pre-requisite for this installation:
+
 1. node.js - node.js engine can be downloaded and installed from [http://nodejs.org](http://nodejs.org)
 2. npm (Node Package Manager) - can be downloaded and installed from [http://www.npmjs.org ] (http://www.npmjs.org)
 
@@ -24,7 +27,7 @@ All the server side operating systems that are supported by **node.js ** are sup
 4. SunOS 32-bit, 64-bit
 
 ## List of Supported Browsers (for client side/ end user or patient )
-Most of the browsers are supported by this application. Older browsers are also supported. For very old browsers like IE 6 & 7, there are options to downgrade gracefully. 
+Most of the browsers are supported by this application. Older browsers are also supported. For very old browsers like IE 6 & 7, this software downgrades gracefully. 
 
 ### Internet Explorer 
 
@@ -34,10 +37,10 @@ Supported IE versions are :
 2. Internet Explorer 10
 3. Internet Explorer 9
 4. Internet Explorer 8
-5. Internet Explorer 7 (No support for tab view. Supports alternate scrollable page view.)
-6. Internet Explorer 6 (No support for tab view. Support alternate scrollable page view.)
+5. Internet Explorer 7 (Supports scrollable page view option.)
+6. Internet Explorer 6 (Supports scrollable page view option.)
 
-Older versions of Internet Explorer IE 6 & IE 7 does not support the default 'tab' view of the Digital Privacy Notice. The Health Care and Health Plan provider whose web sites support IE 6 &  IE 7 can optionally switch down to ' scrollable page' view. The instructions to force 'scrollable page' view is given under section [Usage instructions][].
+Older versions of Internet Explorer IE 6 & IE 7 does not support the default 'tab' view of the Digital Privacy Notice. The Health Care and Health Plan provider whose web sites support IE 6 &  IE 7 can switch to ' scrollable page' view. The instructions to select 'scrollable page' view is given under section [Usage instructions][].
 
 ### Mozilla Firefox
 Firefox version 3 and above.
@@ -112,7 +115,7 @@ Health Care or Health Plan provider entities can customize the content in the mo
 * The module supports easy customization of content by simple edit of plain text files. You can optionally add HTML tags to provide page breaks and styling.
 * This module support provider specific instructions unique for Health Care providers and Health Plan providers
 * For each type of providers, instruction in English and Spanish can be customized
-* Provider entities can leave the files empty if they do not want to provide specific instructions. **DO NOT DELETE ANY OF THE INSTRUCTION TEXT FILES.**
+* Provider entities can leave the files empty if they do not want to provide specific instructions. **DO NOT DELETE THE INSTRUCTION TEXT FILE ITSELF.**
 
 The path of the instruction files is under installed folder at **'..../node_modules/digitalprivacynotice/lib/instructions'**.
 There are two set of folder under this directory  -
@@ -121,7 +124,7 @@ There are two set of folder under this directory  -
 2. **hp** - contains two folders, one for English **'EN' **and the other for Spanish **'ES'**. Each of these folders contain text files for instructions A to H for Health Plan provider.
 
 
-Following set of text files exists under language specific folders ( EN and ES ) for instruction A to H in respective language.
+Following set of text files exist under language specific folders ( EN and ES ) for instruction A to H in respective language.
 
 1. InstructionA.txt
 2. InstructionB.txt
